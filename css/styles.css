@@ -7,11 +7,61 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 a {
   text-decoration: none;
 }
+
+/* container */
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -22,6 +72,11 @@ a {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin: 76px;
+}
+
 .header-logo .logo-part {
   color: #2e2f42;
 }
@@ -30,7 +85,15 @@ a {
   color: #f4f4fd;
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -38,11 +101,22 @@ a {
   color: #2e2f42;
 }
 
+/* address */
+
 .contacts {
   font-style: normal;
+  margin: auto;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -56,11 +130,18 @@ a {
   color: #404bbf;
 }
 
+/* section-hero */
+
 .section-hero {
   background-color: #2e2f42;
 }
 
 .section-hero-title {
+  padding-bottom: 292px;
+  padding-top: 188px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -70,6 +151,7 @@ a {
 }
 
 .order-btn {
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -83,6 +165,15 @@ a {
 .order-btn:hover,
 .order-btn:focus {
   background-color: #404bbf;
+}
+
+/* features */
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-name {
@@ -100,6 +191,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+/* section-our-team */
 
 .section-our-team {
   background-color: #f4f4fd;
@@ -134,6 +227,8 @@ a {
   text-align: center;
 }
 
+/* section-portfolio */
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -159,6 +254,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+/* footer */
 
 .footer {
   background-color: #2e2f42;
