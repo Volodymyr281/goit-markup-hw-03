@@ -134,11 +134,12 @@ a {
 
 .section-hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .section-hero-title {
-  padding-bottom: 292px;
-  padding-top: 188px;
+  margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
   width: 496px;
@@ -158,8 +159,10 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
+  width: 169px;
+  height: 56px;
 }
 
 .order-btn:hover,
@@ -169,11 +172,15 @@ a {
 
 /* features */
 
+.section-features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  align-items: center;
 }
 
 .features-name {
@@ -181,21 +188,31 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+}
+
+.features-item {
+  flex-basis: ((100% - 72px) / 4);
+  display: block;
+  max-width: 264px;
+}
+
+.caption {
+  margin-bottom: 8px;
 }
 
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 /* section-our-team */
 
 .section-our-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-team-title {
@@ -206,9 +223,18 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  padding: 72px;
 }
+
+.vidstup {
+  margin-bottom: 8px;
+}
+
 .our-team-item {
   background-color: #ffffff;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .our-team-name {
@@ -220,6 +246,21 @@ a {
   color: #2e2f42;
 }
 
+.container-sud {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.our-team-list {
+  display: flex;
+  align-items: center;
+  width: calc((100% - 72px) / 4);
+  gap: 24px;
+  border-radius: 0 0 4px 4px;
+}
+
 .our-team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -229,6 +270,16 @@ a {
 
 /* section-portfolio */
 
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container-portfolio {
+  display: flex;
+  align-items: center;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -237,6 +288,20 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 72px;
+}
+
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
+  gap: 24px;
+}
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 44px;
+  flex-wrap: wrap;
 }
 
 .portfolio-name {
