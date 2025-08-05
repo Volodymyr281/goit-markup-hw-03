@@ -161,6 +161,7 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   margin: 0 auto;
+  height: 56px;
   min-width: 169px;
   border: none;
   border-radius: 4px;
@@ -178,18 +179,18 @@ a {
   padding-bottom: 120px;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-}
-
 .features-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 
 .features-item {
@@ -224,18 +225,11 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding: 72px;
+  margin-bottom: 72px;
 }
 
 .vidstup {
   margin-bottom: 8px;
-}
-
-.our-team-item {
-  background-color: #ffffff;
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .our-team-name {
@@ -248,8 +242,6 @@ a {
 }
 
 .container-sud {
-  padding-left: 16px;
-  padding-right: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -257,9 +249,16 @@ a {
 .our-team-list {
   display: flex;
   align-items: center;
-  width: calc((100% - 72px) / 4);
   gap: 24px;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-item {
+  background-color: #ffffff;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team-text {
@@ -287,13 +286,12 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .container-portfolio-smart {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list {
@@ -308,7 +306,7 @@ a {
 }
 
 .taki {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-name {
