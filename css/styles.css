@@ -77,8 +77,8 @@ a {
 }
 
 .header-logo {
+  margin-right: 76px;
   padding: 24px 0;
-  margin: 76px;
 }
 
 .header-logo .logo-part {
@@ -345,7 +345,7 @@ a {
   color: #4d5ae5;
 }
 
-.logo {
+.footer-logo {
   margin-bottom: 16px;
   display: inline-block;
 }
